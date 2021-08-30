@@ -1,0 +1,73 @@
+.app-header {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #1e96fc;
+  padding: 0.5rem;
+  color: white;
+  font-style: italic;
+}
+.input--field {
+  padding: 1rem;
+  margin: 2rem;
+  width: 15rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+.ham-burger {
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #a2d6f9;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+}
+.menu-option {
+  padding: 1rem;
+  font-size: large;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  margin-top: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  margin: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #30b0a1;
+  padding: 1.3rem 1.7rem;
+  margin: 1rem;
+}
+.highlight-card {
+  background-color: #451f55;
+  font-size: large;
+  color: #000;
+}
+.ml {
+  margin-left: 25%;
+}
+.nav-link {
+  text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+  .sidebar,
+  .ham-burger {
+    display: none;
+  }
+  .input--field {
+    width: auto;
+  }
+  .ml {
+    margin: 1rem;
+  }
+}
