@@ -1,6 +1,4 @@
-import { Carousel } from 'react-responsive-carousel'
-import Carousel_Image from './Carousel_Image'
-import { images } from './carousel_images'
+import { Carousel, Carousel_Image, images } from '.'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Header = () => {

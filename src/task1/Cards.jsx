@@ -1,4 +1,4 @@
-import { useInput } from '../context'
+import { Card, useInput } from '.'
 
 const Cards = () => {
   const { inputState, navState } = useInput()
@@ -8,12 +8,7 @@ const Cards = () => {
       {[...inputState].map((char, index) => {
         char !== ' ' && count++
         return char !== ' ' ? (
-          <div
-            key={index + char}
-            className={`card ${count % 3 === 0 ? 'highlight-card' : ''}`}
-          >
-            {char}
-          </div>
+          <Card key={char + index} char={char} count={count} />
         ) : (
           ''
         )

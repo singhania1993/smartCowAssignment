@@ -1,5 +1,5 @@
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { useInput } from '../context'
+import { GiHamburgerMenu, useInput } from '.'
+
 const Header = () => {
   const { setNavState } = useInput()
   return (

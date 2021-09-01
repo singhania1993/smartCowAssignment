@@ -1,8 +1,9 @@
-import { NavLink } from 'react-router-dom'
+import { useInput, NavLink } from '.'
 
 const SideBar = () => {
+  const { navState } = useInput()
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${navState ? 'show' : 'hide'}`}>
       <NavLink to="/task2" className="nav-link">
         {' '}
         <h5 className="menu-option">Task 2</h5>

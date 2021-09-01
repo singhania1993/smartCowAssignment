@@ -1,4 +1,5 @@
-import { image1, image2, image3, image4, image5 } from './images'
+import { image1, image2, image3, image4, image5, image6 } from './images'
+
 export const images = [
   {
     id: '123',
@@ -29,5 +30,11 @@ export const images = [
     src: image5,
     alt: 'snow',
     name: 'Mountains Covered with Snow',
+  },
+  {
+    id: '128',
+    src: image6,
+    alt: 'tree branch',
+    name: 'Cat on the tree branch',
   },
 ]

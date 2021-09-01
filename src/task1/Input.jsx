@@ -1,4 +1,4 @@
-import { useInput } from '../context'
+import { useInput } from '.'
 
 const InputBox = () => {
   const { navState, inputState, setInputState } = useInput()

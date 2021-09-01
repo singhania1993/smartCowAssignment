@@ -1,6 +1,5 @@
 .image-height {
-  max-height: 20rem;
-  /* object-fit: cover; */
+  max-height: 28vh;
 }
 .carousel-img {
   width: 100%;
@@ -9,21 +8,35 @@
 .video {
   position: sticky;
   bottom: 0;
-  display: flex;
-  justify-content: flex-end;
+  height: 60vh;
   align-items: center;
 }
 .text-on-img {
   position: absolute;
   bottom: 2rem;
   left: 45%;
+  font-size: large;
 }
 .btn-task-1 {
-  background-color: #1e96fc;
+  background-color: #ecdf26;
   padding: 0.6rem 1rem;
   border-radius: 3px;
   margin: 1rem;
 }
 .task2-page {
   height: 100vh;
+}
+
+.video-frame {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media only screen and (max-width: 800px) {
+  .video {
+    position: sticky;
+    bottom: 0;
+    height: 60vh;
+    align-items: center;
+  }
 }
