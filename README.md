@@ -4,9 +4,10 @@
 
 I added a check for space, as it was not looking good if we have a card with space and if user enters multiple space then it was worse condition. Apart from this everything was fine in this task.
 I added the link to task2 page in the side bar.
-![image](https://user-images.githubusercontent.com/75484187/131223914-c36875d6-0723-4f99-8020-833a7f16383c.png)
+![image](https://user-images.githubusercontent.com/89765300/131683488-950358d7-8490-458f-92ed-cdc97d15dd55.png)
 
-![image](https://user-images.githubusercontent.com/75484187/131223921-3f34a36e-6cd1-45cb-a35a-8ce921a39178.png)
+![image](https://user-images.githubusercontent.com/89765300/131683414-a4a4d5e7-f4e9-4296-9bd2-be13e5a086b9.png)
+
 
 
 ## Task 2
@@ -16,5 +17,5 @@ I added the link to task2 page in the side bar.
 
 I used fast-average-color library which calculates the average color of the image, and then I checked if the image is dark then I will have the font color as white otherwise black.
 
-![image](https://user-images.githubusercontent.com/75484187/131226071-278a9df5-45c4-4967-aa34-3fcaa6a4e0ab.png)
+![image](https://user-images.githubusercontent.com/89765300/131683736-35ebb85c-1e6f-4651-8780-70293c31d3f2.png)
 
